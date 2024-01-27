@@ -30,12 +30,17 @@ if (score1 > score2) {
 }
 }
 // Initialize styles on page load
-updateScoreStyles();
+
  
  function newGame() {
+
+     homeScore.innerText = "0";
+     guestScore.innerText = "0"; 
      score1 = 0;
      score2 = 0;
-     homeScore.innerText = "0";
-     guestScore.innerText = "0";
+     guestScore.classList.remove('highliter')
+     homeScore.classList.remove('highliter') 
+     
      
  }
+ updateScoreStyles();
