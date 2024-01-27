@@ -1,6 +1,7 @@
 body {
     margin: 0;
     background: #1B244A; 
+    user-select: none;
 }
 
 
@@ -21,6 +22,8 @@ h3 {
     flex-direction: column;
     height: 100vh;
     min-width: 400px;
+    max-width: 1000px;
+    margin: auto;
 }
 .score {
     font-family: 'Cursed Timer ULiL', sans-serif;
@@ -53,7 +56,8 @@ h3 {
 .container-points {
     display: flex;
    justify-content: space-between;
-   width: 100%
+   width: 100%;
+   margin-bottom: 0px;
 }
  .points {
     border-radius: 0.3125rem;
@@ -88,6 +92,7 @@ h3 {
     color: #1B244A; 
     border-radius: 10px;
     border: none;
+    margin-top: 20px;
      
  }
  .wraper {
