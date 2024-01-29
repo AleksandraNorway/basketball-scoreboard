@@ -26,7 +26,7 @@ if (score1 > score2) {
 } else {
     // Set the border color for the else condition
      guestScore.classList.remove('highliter')
-     homeScore.classList.remove('highliter') // Replace 'anotherColor' with the color of your choice
+     homeScore.classList.remove('highliter') //
 }
 }
 // Initialize styles on page load
